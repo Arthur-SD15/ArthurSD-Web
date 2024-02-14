@@ -1,0 +1,53 @@
+/* Nav */
+
+.navbar{
+    background-color: #212121
+}
+
+.nav-link.text-brace {
+    font-size: 1rem; 
+    font-family: 'Arial', sans-serif; 
+    letter-spacing: 1px; 
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.5);
+    margin-right: 20px; 
+    transition: color 0.3s;
+}
+
+.nav-link.text-brace:hover {
+    color: #e4dddd; 
+}
+
+/* Section */
+
+.espapo{
+    height: 100vh;
+    background-color: #212121
+}
+
+/* Footer */
+
+.footer-1{
+    background-color: #252525;
+}
+
+.footer-2{
+    background-color: #1A1A1A;
+}
+
+ul{
+    list-style: none;
+}
+
+.list-inline-item{
+    color: white;
+    font-size: x-large;
+}
+
+.list-inline-item a{
+    color: white;
+}
+
+.list-inline-item a:hover{
+    color: rgba(255, 255, 255, 0.5);
+}
