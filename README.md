@@ -1,0 +1,3 @@
+## 🌎 Projeto
+
+Este projeto é uma página que apresenta parte da história de Arthur, tanto profissional quanto acadêmica. Diversos tópicos são descritos, incluindo objetivos, prêmios, pesquisas desenvolvidas, entre outros aspectos relevantes. Esta página pode ser utilizada como um portfólio, fornecendo uma base para avaliação das realizações já desenvolvidas por Arthur. Além disso, ela serve como uma ferramenta para demonstrar suas habilidades e experiências, auxiliando na comunicação de suas conquistas e contribuições no âmbito profissional e acadêmico.
