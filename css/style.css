@@ -1,4 +1,5 @@
 /* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
 
 .times{
     font-family: 'Times New Roman', Times, serif;
@@ -20,15 +21,15 @@
     bottom: 0;
     left: 0;
     width: 100%;
-    height: 2px; /* altura do border-bottom */
+    height: 2px; 
     background: linear-gradient(to right, #9a9a9a, #9a9a9a, #9a9a9a, #9a9a9a, #ffffff, #ffffff, #ffffff, transparent);
 }
 
 .nav-link.text-brace {
     font-size: 1rem; 
-    font-family: 'Arial', sans-serif; 
-    letter-spacing: 1px; 
     font-weight: 600;
+    font-family: "Merriweather", serif;
+    letter-spacing: 1px; 
     color: rgba(255, 255, 255, 0.5);
     margin-right: 20px; 
     transition: color 0.3s;
@@ -38,8 +39,28 @@
     color: #e4dddd; 
 }
 
-.navbar-toggler{
+.navbar-toggler {
+    display: inline-block;
+    vertical-align: middle;
+}
+  
+  
+.navbar-toggler .navbar-toggler-icon {
     color: white;
+}
+  
+  
+.navbar-toggler-icon {
+    width: 1.5em;
+    height: 1.5em;
+}
+
+.navbar-toggler:focus {
+    outline: none;
+}
+  
+.scroll-to-top-btn:focus{
+    outline: none;
 }
 
 
@@ -249,9 +270,10 @@ ul{
     bottom: 20px;
     right: 20px;
     background-color: white;
-    border-radius: 10%;
+    border: none;
+    border-radius: 100%;
     width: 40px;
-    height: 55px;
+    height: 40px;
     font-size: 20px;
     cursor: pointer;
     opacity: 0; 
@@ -268,3 +290,19 @@ ul{
     opacity: 1; 
     transform: translateY(0);
 }
+
+
+/* Media */
+
+@media (max-width: 767px) {
+    .navbar-nav{
+        margin-top: 0.8em;
+    }
+
+    .navbar-nav.ml-auto .nav-link {
+      font-size: 0.9rem; 
+      font-weight: 600;
+      padding: 0;
+      padding-bottom: 0.3em;
+    }
+  }
